@@ -1,0 +1,22 @@
+{
+  "name": "style_la_palette_du_gout_desktop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss/style_accueil.scss:css/style_accueil.css --watch scss/style_restaurant.scss:css/style_restaurant.css -w --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomcroms/OPENCLASSROOM_P3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomcroms/OPENCLASSROOM_P3/issues"
+  },
+  "homepage": "https://github.com/Tomcroms/OPENCLASSROOM_P3#readme",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.54.0"
+  }
+}
