@@ -124,6 +124,12 @@ body
             text-align: center;
             padding: 10px 0 10px 0;
             text-decoration: none;
+            transition: all 500ms;
+        }
+        a:hover
+        {
+            background: linear-gradient(to right,#ed91e4,#cd77ed);
+            box-shadow: 5px #f5edff;
         }
     }
 }
