@@ -216,18 +216,20 @@ body
         display: block;
         margin-left: auto;
         margin-right: auto;
+        color: $white;
         padding: 10px 0 10px 0;
         width: 160px;
         height: auto;
         border-radius: 20px;
-        background-color: $grey;           
+        border-color: $grey;
+        background: linear-gradient(to right,#e671da,#ba63db);           
         transition: all 500ms ease-in;            
         &:hover
         {   
             cursor: pointer;        
             color:white;
-            border-color:$grey;
-            background: linear-gradient(to right,#e671da,#ba63db);
+            background: linear-gradient(to right,#ed91e4,#cd77ed);
+            box-shadow: 5px #f5edff;
         }
     }
 }
@@ -361,11 +363,6 @@ body
             position: relative;
             padding: 0 20px 0 20px;
             margin-bottom: 50px;
-            .menu__titre
-            {
-                width:100%;
-                text-align: center;
-            }
         }
         &__bouton
         {
